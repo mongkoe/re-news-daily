@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>부동산 뉴스 브리핑 2026-11-08</title>
+<style>
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f6f8;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  line-height: 1.5;
+}
+.wrap { max-width: 940px; margin: 0 auto; padding: 16px; }
+header.top { padding: 8px 0 16px; border-bottom: 1px solid #e0e0e0; margin-bottom: 20px; }
+header.top h1 { font-size: 30px; margin: 0 0 6px; }
+header.top .sub { color: #666; font-size: 19px; margin-bottom: 10px; }
+header.top .nav { display: flex; gap: 12px; font-size: 19px; }
+header.top .nav a { color: #1a56db; text-decoration: none; }
+header.top .nav a:hover { text-decoration: underline; }
+
+section { margin-bottom: 28px; scroll-margin-top: 16px; }
+section h2 { font-size: 23px; margin: 0 0 12px; }
+
+.cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 560px) {
+  .cards { grid-template-columns: 1fr 1fr; }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5e5e5;
+}
+.card .thumb { width: 100%; height: 140px; object-fit: cover; background: #eee; }
+.card .thumb-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef1ff;
+  color: #3348c7;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 12px;
+}
+.card-body { padding: 10px 12px 12px; }
+.card-title {
+  font-size: 21px;
+  margin: 0 0 6px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card .meta { font-size: 16px; color: #888; margin-bottom: 6px; }
+.card .summary {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.summary-box {
+  background: #eef4ff;
+  border: 1px solid #c9dcff;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+.summary-box h2 { margin: 0 0 10px; }
+.summary-box .lede { font-size: 19px; color: #1a1a1a; margin: 0 0 12px; line-height: 1.6; }
+.overview { margin: 0 0 14px; padding: 12px 14px; background: #fff; border-radius: 8px; border: 1px solid #d9e4fb; }
+.overview p { font-size: 18px; color: #333; margin: 0 0 8px; line-height: 1.6; }
+.overview p:last-child { margin-bottom: 0; }
+.highlight-list { list-style: none; margin: 0; padding: 0; }
+.highlight-item {
+  font-size: 19px;
+  padding: 8px 0;
+  border-top: 1px solid #d9e4fb;
+  line-height: 1.5;
+}
+.highlight-item:first-child { border-top: none; }
+.highlight-item a { color: #1a1a1a; text-decoration: none; font-weight: 600; }
+.highlight-item a:hover { text-decoration: underline; }
+.topic-chip {
+  display: inline-block;
+  background: #3348c7;
+  color: #fff;
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.topic-section h2 { }
+.topic-more { margin-top: 8px; font-size: 18px; }
+.topic-more summary { cursor: pointer; color: #1a56db; padding: 6px 0; }
+.topic-more ul.list { margin-top: 8px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  background: #eef1ff;
+  color: #3348c7;
+  font-size: 18px;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.topic-nav-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.topic-nav-chip {
+  display: inline-block;
+  background: #fff;
+  color: #3348c7;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border: 1px solid #3348c7;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.topic-nav-chip:hover { background: #eef1ff; }
+
+.badge {
+  display: inline-block;
+  background: #fff1e6;
+  color: #c25a00;
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+ul.list { list-style: none; margin: 0; padding: 0; }
+.item {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.item-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; }
+.item-title { font-size: 21px; color: #1a1a1a; text-decoration: none; font-weight: 600; }
+.item-title:hover { text-decoration: underline; }
+.item .meta { font-size: 16px; color: #888; margin: 4px 0 6px; }
+.item .summary { font-size: 18px; color: #555; margin: 0 0 6px; }
+.related { font-size: 18px; }
+.related summary { cursor: pointer; color: #1a56db; }
+.related ul { margin: 6px 0 0; padding-left: 18px; }
+.related li { margin-bottom: 4px; }
+.related a { color: #1a1a1a; text-decoration: none; }
+.related a:hover { text-decoration: underline; }
+.related .press { color: #888; }
+
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 16px;
+  font-size: 16px;
+  color: #888;
+}
+footer .sources { margin-bottom: 8px; }
+footer .src.fail { color: #c0392b; }
+footer .copyright { margin-bottom: 8px; }
+footer a { color: #1a56db; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>부동산 뉴스 브리핑</h1>
+    <div class="sub">2026년 11월 8일 (일) · 기사 40건 · 오전 6:31 수집</div>
+    <nav class="nav">
+      <a href="2026-11-07.html">어제 브리핑</a>
+      <a href="index.html">지난 브리핑</a>
+    </nav>
+  </header>
+
+  <section class="summary-box">
+  <h2>오늘의 요약</h2>
+  <p class="lede">총 40건이 수집되었습니다. 분양·청약 13건, 대출·금융 9건, 시장·시세 8건 순으로 많았습니다.</p>
+  <div class="overview">
+    <p>분양·청약(13건) — &#x27;청약통장 4년 새 282만명 깼다… 고분양가·대출 규제에 ‘청약 포기’&#x27; 등의 보도가 이어졌습니다. 9월 말 2569만좌… 1년 새 65만좌 감소 수도권 자금 부담·지방 미분양 등 영향 주택도시기금 재원 우려… 잔액 확인 필요 전국 청약통장이…</p>
+    <p>대출·금융(9건) — &#x27;“작은 집이 더 비싸다”… 1.5% ‘삼성 대출’이 뒤집은 광교 집값&#x27; 등의 보도가 이어졌습니다. 경기 남부 주요 아파트 단지에서 면적이 작은 집이 큰 집보다 비싸게 팔리는 기현상이 확산하고 있다.</p>
+    <p>시장·시세(8건) — &#x27;서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까&#x27; 등의 보도가 이어졌습니다. 2021년엔 매물 늘다 감소한 후 가격 상승폭 확대 강남3구 하락했지만 나머지 22개 구 상승…&quot;공급 신뢰로 시장 불안 낮춰야&quot; 8·3 세제개편…</p>
+    <p>정책·제도(4건) — &#x27;택시비, 심야 이어 요일별 할증도 가능해진다…국토부 훈령 개정 추진&#x27; 등의 보도가 이어졌습니다. 앞으로 지방자치단체가 지역별 택시 수요와 공급 상황에 따라 요일별로 운임을 차등 적용할 수 있게 된다.</p>
+  </div>
+  <ul class="highlight-list">
+    <li class="highlight-item"><span class="topic-chip">분양·청약</span> <a href="https://n.news.naver.com/article/366/0001203247" target="_blank" rel="noopener">청약통장 4년 새 282만명 깼다… 고분양가·대출 규제에 ‘청약 포기’</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">대출·금융</span> <a href="https://n.news.naver.com/article/029/0003057640" target="_blank" rel="noopener">“작은 집이 더 비싸다”… 1.5% ‘삼성 대출’이 뒤집은 광교 집값</a></li>
+    <li class="highlight-item"><span class="topic-chip">시장·시세</span> <a href="https://n.news.naver.com/article/001/0016428443" target="_blank" rel="noopener">서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">정책·제도</span> <a href="https://n.news.naver.com/article/421/0009276354" target="_blank" rel="noopener">택시비, 심야 이어 요일별 할증도 가능해진다…국토부 훈령 개정 추진</a></li>
+    <li class="highlight-item"><span class="topic-chip">지역·개발</span> <a href="https://n.news.naver.com/article/003/0014308250" target="_blank" rel="noopener">&quot;역세권·대단지 믿고 샀다간 낭패&quot;…상가 투자 성공의 열쇠는</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">재건축·재개발</span> <a href="https://n.news.naver.com/article/008/0005437974" target="_blank" rel="noopener">&quot;3억 껑충&quot; 목동 옆 노후 아파트 &#x27;들썩&#x27;...3149가구 들어선다[챗집피티]</a><span class="badge">2개 언론사</span></li>
+  </ul>
+</section>
+
+  <section>
+    <h2>주요뉴스</h2>
+    <div class="cards">
+      <a class="card" href="https://n.news.naver.com/article/001/0016428443" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/001/2026/11/08/PYH2026110213750001300_P4_20261108060514410.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>시장·시세</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까</h3>
+    <div class="meta">연합뉴스 · 06:05</div>
+    <p class="summary">2021년엔 매물 늘다 감소한 후 가격 상승폭 확대 강남3구 하락했지만 나머지 22개 구 상승…&quot;공급 신뢰로 시장 불안 낮춰야&quot; 8·3 세제개편안 발표 이후 서울 아파트 매물이 33% 늘었지만 매물 증가가 지속적인</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/366/0001203247" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/366/2026/11/08/0001203247_001_20261108060154287.JPG" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>분양·청약</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">청약통장 4년 새 282만명 깼다… 고분양가·대출 규제에 ‘청약 포기’</h3>
+    <div class="meta">조선비즈 · 06:01</div>
+    <p class="summary">9월 말 2569만좌… 1년 새 65만좌 감소 수도권 자금 부담·지방 미분양 등 영향 주택도시기금 재원 우려… 잔액 확인 필요 전국 청약통장이 4년 새 282만좌 넘게 줄었다. 고분양가와 대출 규제로 당첨 이후에도</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/025/0003563529" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/025/2026/11/08/0003563529_001_20261108060110718.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>시장·시세</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">李가 말한 ‘강남 3구’ 빼니…나머지 22개구 집값 17.2% 뛰었다</h3>
+    <div class="meta">중앙일보 · 06:00</div>
+    <p class="summary">“주요 지역의 실제 거래가격도 놀라울 정도로 떨어지고 있다.”(지난 3일) “나는 서울의 주요 지역, 즉 강남·서초·송파만 말했음이 분명하다.”(4일) 이재명 대통령이 최근 서울 집값을 두고 잇따라 한 발언이다. “</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/003/0014308250" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/003/2026/11/08/NISI20261106_0002284858_web_20261106105955_20261108060117104.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>지역·개발</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">&quot;역세권·대단지 믿고 샀다간 낭패&quot;…상가 투자 성공의 열쇠는</h3>
+    <div class="meta">뉴시스 · 06:00</div>
+    <p class="summary">역세권이나 대단지 아파트 인근이라는 이유만으로 상가 투자를 결정해서는 안 되며, 외부 방문객을 끌어들일 요인과 실제 보행 동선을 살펴야 한다는 조언이 나왔다. 지난 4일 유튜브 채널 &#x27;여의도 정</p>
+  </div>
+</a>
+    </div>
+  </section>
+
+  <section class="topic-nav">
+  <h2>주제별 뉴스 바로가기</h2>
+  <div class="topic-nav-list">
+    <a class="topic-nav-chip" href="#topic-bunyang">분양·청약 13</a>
+    <a class="topic-nav-chip" href="#topic-loan">대출·금융 9</a>
+    <a class="topic-nav-chip" href="#topic-market">시장·시세 8</a>
+    <a class="topic-nav-chip" href="#topic-policy">정책·제도 4</a>
+    <a class="topic-nav-chip" href="#topic-region">지역·개발 3</a>
+    <a class="topic-nav-chip" href="#topic-redev">재건축·재개발 2</a>
+    <a class="topic-nav-chip" href="#topic-etc">기타 1</a>
+  </div>
+</section>
+
+  <section>
+  <h2>오늘의 키워드</h2>
+  <div class="chips"><span class="chip">집값</span><span class="chip">대출</span><span class="chip">청약</span><span class="chip">광교</span><span class="chip">매물</span><span class="chip">서울</span><span class="chip">아파트</span><span class="chip">두고</span></div>
+</section>
+
+  <section class="topic-section" id="topic-bunyang">
+  <h2>분양·청약 (13건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/366/0001203247" target="_blank" rel="noopener">청약통장 4년 새 282만명 깼다… 고분양가·대출 규제에 ‘청약 포기’</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">조선비즈 · 06:01</div>
+  <p class="summary">9월 말 2569만좌… 1년 새 65만좌 감소 수도권 자금 부담·지방 미분양 등 영향 주택도시기금 재원 우려… 잔액 확인 필요 전국 청약통장이 4년 새 282만좌 넘게 줄었다. 고분양가와 대출 규제로 당첨 이후에도</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/366/0001203247?sid=101" target="_blank" rel="noopener">청약통장 4년 새 282만명 깼다… 고분양가·대출 규제에 ‘청약 포기’</a> <span class="press">· biz.chosun.com</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005437976" target="_blank" rel="noopener">임대주택 한 채에 청년 130명 줄 섰다...&quot;기회 오지도 않아&quot; 호소 나온 이유</a>
+    
+  </div>
+  <div class="meta">머니투데이 · 05:00</div>
+  <p class="summary">서울 청년 매입임대주택 경쟁률이 130대 1에 육박하는 등 공공임대 입주를 희망하는 청년들이 늘고 있지만 공급은 수요를 따라가지 못하고 있다. 내년 기존 청년 매입임대 공급 물량은 1만8000가구로 올해와 같다. 새</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/119/0003152482?sid=101" target="_blank" rel="noopener">이번주 공모주 청약, 하나에어로다이내믹스·엠비디 등 4개사</a>
+    
+  </div>
+  <div class="meta">dailian.co.kr · 06:02</div>
+  <p class="summary">공모주 청약에 나선다. 8일 금융투자업계에 따르면, 하나에어로다이내믹스는 오는 10~11일 이틀간 일반청약을 진행한다. 하나에어로다이내믹스는 항공기와 우주선 관련 부품을 제조하는 기업이다. 코스닥 상장을...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/031/0001073117?sid=101" target="_blank" rel="noopener">&#x27;증거금 8조&#x27; 동원파츠 코스닥 입성⋯&#x27;최대어&#x27; 제이앤티지 청약 [IPO 돋보...</a>
+    
+  </div>
+  <div class="meta">inews24.com · 06:01</div>
+  <p class="summary">동원파츠는 일반청약에서 8조원 넘는 증거금을 끌어모으며 흥행에 성공한 반면 바로팜과 넥스아이는 기관 수요예측부터 부진한 성적을 거뒀다. 일반청약 시장에서는 공모 규모 1000억원대 &#x27;최대어&#x27; 제이앤티지를...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.cbci.co.kr/news/articleView.html?idxno=624426" target="_blank" rel="noopener">[다음주 분양알림] &quot;광교·평택 어디로 갈까?&quot; 실수요자 사로잡을 알짜...</a>
+    
+  </div>
+  <div class="meta">cbci.co.kr · 06:00</div>
+  <p class="summary">다음 주 전국 12곳서 5,215가구 청약 접수…경기 4,102가구 집중 서울 아파트 월세, 매매, 전세 가격이 올해 9월까지 모두 큰 폭으로 상승한 가운데, 다음 주 전국적으로 12개 단지에서 5천215가구의 청약이 진행된다....</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.wolyo.co.kr/news/articleView.html?idxno=320168" target="_blank" rel="noopener">옵토닉스, 공모가 1만2000원 확정…17일 코스닥 상장</a>
+    
+  </div>
+  <div class="meta">wolyo.co.kr · 05:58</div>
+  <p class="summary">방산 센서 광학 전문기업 옵토닉스가 코스닥 상장을 앞두고 진행한 일반청약에서 1300대 1이 넘는 경쟁률을 기록했다. 청약 증거금은 4조4000억원을 넘어섰다. 옵토닉스는 오는 10일 납입을 거쳐 17일 코스닥 시장에...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/022/0004173303?sid=101" target="_blank" rel="noopener">잠자던 내 돈이 이렇게 많았나…3분 만에 찾아내는 국가 공식 시스템 3가...</a>
+    
+  </div>
+  <div class="meta">segye.com · 05:39</div>
+  <p class="summary">과거에 개설해두고 까맣게 잊고 있던 주택청약 통장이나 이직 전 급여 통장, 군 복무 시절 사용했던 계좌 등에 소액의 잔액이 남아있는 경우가 비일비재하다. 어카운트인포에서는 제1금융권 은행은 물론 저축은행, 증권사...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.straightnews.co.kr/news/articleView.html?idxno=314857" target="_blank" rel="noopener">평택고덕 완판 우미린, 같은 값에 &#x27;더 프리미어&#x27; 한 번 더</a>
+    
+  </div>
+  <div class="meta">straightnews.co.kr · 03:24</div>
+  <p class="summary">9일 특별공급, 10일 1순위, 11일 2순위 청약을 받는다. 프레스티지는 올해 고덕에서 분양한 민영 단지... 비규제지역이라 청약통장 가입 12개월과 예치금 기준을 채우면 거주지와 관계없이 전국에서 청약할 수 있다....</p>
+  
+</li>
+  </ul>
+  <details class="topic-more">
+    <summary>더보기 (5건)</summary>
+    <ul class="list">
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.straightnews.co.kr/news/articleView.html?idxno=314856" target="_blank" rel="noopener">[살집 말집] &#x27;시흥거모&#x27; 먼저 나온 이웃은 완판…&#x27;엘리프 시흥&#x27;도 웃을까</a>
+    
+  </div>
+  <div class="meta">straightnews.co.kr · 02:34</div>
+  <p class="summary">더프라임&#x27;이 청약을 앞두고 지역 실수요자들의 관심을 모으고 있다. 먼저 나온 두 단지가 주인을 찾으면서 후속 분양을 바라보는 현지의 눈길에도 기대가 실렸다. 청약 당시 경쟁률보다 이후 실제 계약으로 확인된...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.straightnews.co.kr/news/articleView.html?idxno=314855" target="_blank" rel="noopener">&#x27;남춘천 센트레빌&#x27; 39층 첫 스카이 커뮤니티...분양가, 3년 전 역주행</a>
+    
+  </div>
+  <div class="meta">straightnews.co.kr · 02:10</div>
+  <p class="summary">전 분양가 수준으로 가격을 낮추면서 춘천 최초의 39층 스카이 커뮤니티를 내세운 아파트 &#x27;남춘천 센트레빌&#x27;이 지역 시장 공략에 나선다. KT그룹 부동산 전문기업 KT에스테이트는 강원 춘천시 효자동 681-12번지 일원...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.kjdaily.com/article.php?aid=1794064727691510276" target="_blank" rel="noopener">에스에프씨·유캐스트 등 5개 기업 수요예측…공모주 청약도 잇따라</a>
+    
+  </div>
+  <div class="meta">kjdaily.com · 00:20</div>
+  <p class="summary">9일까지 청약…공모가 1만7600원 확정 -하나에어로다이내믹스 10~11일·씨앤엠 등 3곳 12~13일 청약 11월 둘째 주 기업공개(IPO) 시장에서는 에스에프씨와 유캐스트 등 5개 기업이 기관투자자 대상 수요예측을 진행한다....</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.kjdaily.com/article.php?aid=1794063716691506276" target="_blank" rel="noopener">[분양일정]광교 자연앤 센트레빌外 5215가구 청약</a>
+    
+  </div>
+  <div class="meta">kjdaily.com · 00:04</div>
+  <p class="summary">사진=아이클릭아트-다음 주 전국 12곳서 5215가구 청약…경기도에 79% 집중 -11월 둘째 주 청약 일정…경기 4102가구 공급 -수원 광교 자연앤 센트레빌 600가구 10일 청약 -평택 한화포레나 지제역 1098가구 공급 -서울...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014308184?sid=101" target="_blank" rel="noopener">이종석, 43억에 산 한남동 빌라 10년새 200억…&#x27;630억 자산가&#x27;의 남다른...</a>
+    
+  </div>
+  <div class="meta">newsis.com · 00:00</div>
+  <p class="summary">그는 2018년 ‘선임대 후분양’ 제도로 공급된 나인원한남에 청약 당첨돼 2019년 입주했으며, 의무 임대 기간(2년) 종료 후 73억 원의 분양가를 완납하고 최종 소유권을 취득했다. 이종석이 거주 중인 세대는 단지...</p>
+  
+</li>
+    </ul>
+  </details>
+</section>
+<section class="topic-section" id="topic-loan">
+  <h2>대출·금융 (9건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/029/0003057640" target="_blank" rel="noopener">“작은 집이 더 비싸다”… 1.5% ‘삼성 대출’이 뒤집은 광교 집값</a>
+    
+  </div>
+  <div class="meta">디지털타임스 · 06:20</div>
+  <p class="summary">경기 남부 주요 아파트 단지에서 면적이 작은 집이 큰 집보다 비싸게 팔리는 기현상이 확산하고 있다. 삼성전자의 저금리 사내대출 지원 대상인 전용면적 84㎡ 이하 아파트에 매수 수요가 집중되면서 면적별 가격 서열이 뒤</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/421/0009276375?sid=101" target="_blank" rel="noopener">법 바꿔 가산금리 깎았더니 우대금리 더 빠졌다…&quot;대출 조이느라&quot;</a>
+    
+  </div>
+  <div class="meta">news1.kr · 06:20</div>
+  <p class="summary">은행권은 정부의 가계대출 총량 관리에 맞춰 대출 문턱을 높이는 과정에서 우대금리 축소가 불가피했다는 입장이다. 8일 은행연합회에 따르면 5대 은행(KB국민·신한·하나·우리·NH농협)의 가계대출(신규 취급액 기준)...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.kukinews.com/article/view/kuk202611060165" target="_blank" rel="noopener">인뱅 3사, 새 먹거리 찾기 분주…대출 영역 넓히고 신규 고객 공략</a>
+    
+  </div>
+  <div class="meta">kukinews.com · 06:02</div>
+  <p class="summary">쿠키뉴스=김태은 기자 | 가계대출 규제와 조달비용 부담으로 기존 성장 공식이 한계에 부딪히자... 개인사업자대출 공급액은 5조원을 넘어섰다. 올해 3분기까지 공급한 금액만 2조1000억원이다. ‘사장님 부동산담보대출’...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=451387" target="_blank" rel="noopener">&#x27;대기업&#x27;에 쏠린 4대 은행 생산적금융, 우리은행 중소·소호대출마저 뒷...</a>
+    
+  </div>
+  <div class="meta">businesspost.co.kr · 06:02</div>
+  <p class="summary">가계대출 규제에 따른 기업금융 확대 기조 속에서도 금리 상승과 경기 불확실성 부담으로 중소기업과 개인사업자 대출 증가세는 상대적으로 더뎠다. 4대 은행 모두 중소기업과 개인사업자 대출에 소극적 모습을 보인...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110602414.html" target="_blank" rel="noopener">200억 펜디·800억 펜트하우스의 눈물…첫 삽도 못뜨고 공매행</a>
+    
+  </div>
+  <div class="meta">realty.chosun.com · 06:02</div>
+  <p class="summary">계약도 잔금 미지급 문제로 소송이 진행 중이다. 테라앤파트너스가 인수해 하이엔드 오피스텔로 리모델링한 강남구 논현동 ‘폴스타인 논현’도 2024년 준공했으나 분양 수익이 예상을 크게 밑돌면서 PF대출...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.kukinews.com/article/view/kuk202611060126" target="_blank" rel="noopener">종신보험 대안으로 주목받는 정기보험…나에게 맞을까 [알경]</a>
+    
+  </div>
+  <div class="meta">kukinews.com · 06:02</div>
+  <p class="summary">자녀가 어리거나 주택담보대출을 갚는 중이라면, 가족의 생계를 책임지는 사람이 갑자기 사망했을 때 남은 가족의 부담이 커집니다. 소득은 끊겨도 생활비와 교육비는 계속 들고 대출도 갚아야 하니까요. 정기보험은...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.fntimes.com/html/view.php?ud=2026110611571517755e6e69892f_18" target="_blank" rel="noopener">24개월 최고 연 7.00%…케이뱅크 &#x27;마이키즈 적금&#x27; [이주의 은행 적금금리...</a>
+    
+  </div>
+  <div class="meta">fntimes.com · 06:02</div>
+  <p class="summary">우대 조건은 ▲소득이체 연 0.6% ▲카드이용 연 0.3% ▲오픈뱅킹 연 0.6% ▲청약보유 연 0.3% ▲마케팅 동의... 우대조건은 ▲주거래우대 0.50% ▲공과금 자동이체 0.40~0.60% ▲신규고객 0.20% ▲주택청약종합저축 보유 0.10...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/011/0004679778?sid=101" target="_blank" rel="noopener">고용·가계대출 동향은...美 10월 물가 촉각[한동훈의 위클리전망대]</a>
+    
+  </div>
+  <div class="meta">sedaily.com · 06:01</div>
+  <p class="summary">최근 가계대출은 정부의 부동산 대출 규제 기조가 이어지고 개인의 주식 투자가 감소하면서 증가폭이 둔화되는 추세다. 9월 예금은행의 가계대출은 전월보다 6000억 원 늘어 8월(+3조 5000억 원)보다 증가폭이 크게...</p>
+  
+</li>
+  </ul>
+  <details class="topic-more">
+    <summary>더보기 (1건)</summary>
+    <ul class="list">
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.straightnews.co.kr/news/articleView.html?idxno=314854" target="_blank" rel="noopener">[살집 말집] 별내역 GTX 기대에 가격 매력까지…강소주택 &#x27;구리갈매역 신...</a>
+    
+  </div>
+  <div class="meta">straightnews.co.kr · 01:04</div>
+  <p class="summary">특별공급 140가구, 일반공급 73가구로 9일 특별공급에 이어 10일 1순위 청약을 받는다. 관심을 끄는 것은... 청약 전에는 자금표부터 짚어야 한다. 계약금은 10%, 중도금은 60%다. 중도금 가운데 분양대금의 40%는 이자후불...</p>
+  
+</li>
+    </ul>
+  </details>
+</section>
+<section class="topic-section" id="topic-market">
+  <h2>시장·시세 (8건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/001/0016428443" target="_blank" rel="noopener">서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">연합뉴스 · 06:05</div>
+  <p class="summary">2021년엔 매물 늘다 감소한 후 가격 상승폭 확대 강남3구 하락했지만 나머지 22개 구 상승…&quot;공급 신뢰로 시장 불안 낮춰야&quot; 8·3 세제개편안 발표 이후 서울 아파트 매물이 33% 늘었지만 매물 증가가 지속적인</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/001/0016428443?sid=101" target="_blank" rel="noopener">서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까</a> <span class="press">· yna.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/025/0003563529" target="_blank" rel="noopener">李가 말한 ‘강남 3구’ 빼니…나머지 22개구 집값 17.2% 뛰었다</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">중앙일보 · 06:00</div>
+  <p class="summary">“주요 지역의 실제 거래가격도 놀라울 정도로 떨어지고 있다.”(지난 3일) “나는 서울의 주요 지역, 즉 강남·서초·송파만 말했음이 분명하다.”(4일) 이재명 대통령이 최근 서울 집값을 두고 잇따라 한 발언이다. “</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/025/0003563529?sid=101" target="_blank" rel="noopener">李가 말한 ‘강남 3구’ 빼니…나머지 22개구 집값 17.2% 뛰었다</a> <span class="press">· joongang.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009276350" target="_blank" rel="noopener">20% 뛴 성북 매물 56%↑, 덜 오른 도봉 4%…서울 외곽도 &#x27;차별화&#x27;</a>
+    
+  </div>
+  <div class="meta">뉴스1 · 05:05</div>
+  <p class="summary">서울 외곽 아파트값이 강남권과 달리 오름세를 이어가고 있다. 다만 외곽 안에서도 흐름이 갈린다. 1년 새 20% 넘게 오른 성북·동대문·강서구는 석 달 새 매물이 합산 기준 40% 넘게 늘면서 상승폭이 줄었지만, 덜</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005437975" target="_blank" rel="noopener">강남은 주춤한데...&quot;이 동네 집값 계속 올라요&quot; 뜨거운 &#x27;반도체 벨트&#x27;</a>
+    
+  </div>
+  <div class="meta">머니투데이 · 04:30</div>
+  <p class="summary">서울 아파트 매매가격 상승폭이 2주 연속 둔화한 가운데 반도체 산업 배후지인 경기 남부권은 강세를 이어갔다. 서울에서는 금천·노원구 등 외곽지역이 상승을 주도한 반면 강남·서초구는 하락했다. 8일 KB국민은행 KB부</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/421/0009276389?sid=100" target="_blank" rel="noopener">삐걱대는 당청 공조…&#x27;확장재정·민생범죄 대응&#x27; 국정동력 반등 고삐</a>
+    
+  </div>
+  <div class="meta">news1.kr · 06:30</div>
+  <p class="summary">코스피 급락과 부동산 정책, 미국 중간선거 영향 등 당정 조율이 필요한 사안을 의제 제한 없이 포괄적으로 논의할 수 있다. 최근 여권에선 당청 공조가 매끄럽지 않으면서 이 대통령과 여당 지지율이 동반 고전하는...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/001/0016428433?sid=101" target="_blank" rel="noopener">&#x27;블루 쓰나미&#x27;에 휘청 코스피, 美증시 반등에 충격 벗어날까</a>
+    
+  </div>
+  <div class="meta">yna.co.kr · 06:00</div>
+  <p class="summary">앤트로픽은 추수감사절인 이달 26일 이전 나스닥 상장을 목표로 하고 있으며 공모 규모는 1천억 달러 안팎으로 역대 최대 규모가 될 전망인 만큼 청약 전 실탄(현금) 확보 수요가 적지 않을 것으로 전망된다. 나...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.tokenpost.kr/news/market/434590" target="_blank" rel="noopener">미 부동산주 주간 1.88% 상승…XLRE는 44달러 마감</a>
+    
+  </div>
+  <div class="meta">tokenpost.kr · 05:34</div>
+  <p class="summary">쿠시먼앤드웨이크필드(Cushman &amp; Wakefield)는 4일 분석에서 선거 결과만으로 부동산 시장의 수익률을 설명하기 어렵다고 봤다. 경제 성장과 금리, 신용 여건이 더 큰 영향을 미친다는 평가를 내놨다.</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.g-enews.com/view.php?ud=202611071720521328fbbec65dfb_1" target="_blank" rel="noopener">美 의회 선거 흔들린 AI 데이터센터 증설…월가 기술주 폭락에 한국 메...</a>
+    
+  </div>
+  <div class="meta">g-enews.com · 03:20</div>
+  <p class="summary">미국 투자은행 에버코어 ISI 분석가들은 2026년 11월 6일 자 보고서에서 선거 과정에서 나온 정책 방향이 미국... 반면 올해 상대적으로 부진했던 소비재, 헬스케어, 부동산 업종은 최근 한 달간 반등 흐름을 나타냈다....</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-policy">
+  <h2>정책·제도 (4건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009276354" target="_blank" rel="noopener">택시비, 심야 이어 요일별 할증도 가능해진다…국토부 훈령 개정 추진</a>
+    
+  </div>
+  <div class="meta">뉴스1 · 05:50</div>
+  <p class="summary">앞으로 지방자치단체가 지역별 택시 수요와 공급 상황에 따라 요일별로 운임을 차등 적용할 수 있게 된다. 기존에는 심야 등 운행 시간대에 따라 할증 요금을 부과했지만, 앞으로는 특정 요일에 요금을 더 받거나 낮출 수</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/008/0005437995?sid=101" target="_blank" rel="noopener">종부세 운명 가를 &#x27;국회의 시간&#x27;…힘 실리는 여당發 &#x27;수정론&#x27;</a>
+    
+  </div>
+  <div class="meta">mt.co.kr · 06:30</div>
+  <p class="summary">정부의 정책 목표와 납세자의 형평성, 산업 경쟁력 등 변수도 다양하다. &#x27;세법 전쟁&#x27;의 현황과 운명을 짚어본다. 종합부동산세(종부세)의 운명을 가를 &#x27;국회의 시간&#x27;이 다가왔다. 정부가 종부세 강화 기조를 유지하는...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/629/0000549696?sid=101" target="_blank" rel="noopener">[비즈토크&lt;하&gt;] 공공vs민간…주택공급 방식 두고 갈등하는 정부·서울시</a>
+    
+  </div>
+  <div class="meta">news.tf.co.kr · 06:04</div>
+  <p class="summary">정부 -부동산 시장에서는 주택공급을 둘러싼 정부와 서울시의 갈등이 계속되고 있죠. 이번에는 재개발 방식을 두고 신경전이 벌어졌다고요. -네. 이재명 대통령이 지난 4일 서울 성북구 장위9구역 공공재개발 사업장을...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/053/0000062897?sid=100" target="_blank" rel="noopener">&#x27;구조적 다수&#x27; 외치던 與, &#x27;구조적 소수&#x27; 덫에</a>
+    
+  </div>
+  <div class="meta">weekly.chosun.com · 05:00</div>
+  <p class="summary">혁신정책연구원장은 신뢰도가 모두 20%대에 그쳤고 불신이 50~60%대였다. 여권은 &#x27;구조적 다수&#x27;를 말하지만... 그사이 대통령의 부동산 발언은 오락가락했다. 지난해 12월에는 &quot;보니까 대책이 없다&quot;고 했다가, 올해 1월에는...</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-region">
+  <h2>지역·개발 (3건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/003/0014308250" target="_blank" rel="noopener">&quot;역세권·대단지 믿고 샀다간 낭패&quot;…상가 투자 성공의 열쇠는</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">뉴시스 · 06:00</div>
+  <p class="summary">역세권이나 대단지 아파트 인근이라는 이유만으로 상가 투자를 결정해서는 안 되며, 외부 방문객을 끌어들일 요인과 실제 보행 동선을 살펴야 한다는 조언이 나왔다. 지난 4일 유튜브 채널 &#x27;여의도 정</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/003/0014308250?sid=101" target="_blank" rel="noopener">&quot;역세권·대단지 믿고 샀다간 낭패&quot;…상가 투자 성공의 열쇠는</a> <span class="press">· newsis.com</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009276373" target="_blank" rel="noopener">기차역·열차에 두고 간 돈 4.7억…주인에게 직접 돌려준 비율은 &#x27;뚝&#x27;</a>
+    
+  </div>
+  <div class="meta">뉴스1 · 06:10</div>
+  <p class="summary">지난해 전국 철도역과 열차에서 습득된 현금과 외화가 총 4억 7206만 원에 달했다. 2021년(3억 4437만 원)보다 37.1% 증가한 수치다. 반면 코레일이 분실자에게 직접 돌려준 비율은 건수 기준으로 4년 연</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/366/0001203245" target="_blank" rel="noopener">189억 깎아도 안 팔린다… 방배동 ‘두레마을’ 땅, 9번째 유찰</a>
+    
+  </div>
+  <div class="meta">조선비즈 · 06:01</div>
+  <p class="summary">최저가 629억→440억, 30% 내려도 유찰 무허가 27가구 이주·공원 조성 낙찰자 몫 서초구, 이달 중순 같은 가격에 10차 입찰 서울 서초구 방배동 무허가 비닐하우스촌 ‘두레마을’ 땅이 아홉 번째 입찰에서도 팔</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-redev">
+  <h2>재건축·재개발 (2건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005437974" target="_blank" rel="noopener">&quot;3억 껑충&quot; 목동 옆 노후 아파트 &#x27;들썩&#x27;...3149가구 들어선다[챗집피티]</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">머니투데이 · 04:30</div>
+  <p class="summary">도시가 변화하고 있습니다. 낡은 건물과 위험한 다리, 들쭉날쭉한 마을이 정비사업으로 다시 움직이기 시작했습니다. &#x27;챗집피티&#x27;는 이 변화의 한복판을 기록하고 공유합니다. 도시정비사업과 부동산의 &#x27;현재&#x27;를 쉽고 정확하게</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/008/0005437974?sid=101" target="_blank" rel="noopener">[챗집피티]&quot;3억 껑충&quot; 목동 옆 노후 아파트 &#x27;들썩&#x27;...3149가구 들어선다</a> <span class="press">· mt.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://realty.chosun.com/site/data/html_dir/2026/11/06/2026110602274.html" target="_blank" rel="noopener">&quot;&#x27;미미삼&#x27;이냐, &#x27;상계주공&#x27;이냐&quot; 노원 재건축 대장은?…추가 분담금 보...</a>
+    
+  </div>
+  <div class="meta">realty.chosun.com · 06:02</div>
+  <p class="summary">재건축을 통해 2173가구가 늘어나며, 공공주택 452가구를 제외해도 일반분양 물량은 약 1700가구에 달한다. 하지만 올해 4월 공개된 추정 분담금은 적지 않다. 월계시영고층아파트 재건축사업 공람안의 ‘분담금...</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-etc">
+  <h2>기타 (1건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/001/0016428429?sid=102" target="_blank" rel="noopener">서울시 AI 활용 확대에도…&quot;주요 행정 부서 10곳 중 2곳만 활용&quot;</a>
+    
+  </div>
+  <div class="meta">yna.co.kr · 06:00</div>
+  <p class="summary">기반 부동산 용어 대화형 분석 도구 등이 있다. 그러나 서울시 주요 부서를 대상으로 한 조사에서는 AI 도입 의지와 실제 활용 수준 사이에 상당한 격차가 있는 것으로 나타났다. 조사 대상은 디지털정책과...</p>
+  
+</li>
+  </ul>
+  
+</section>
+
+  <footer>
+    <div class="sources"><span class="src ok">네이버부동산 (94건)</span> · <span class="src ok">매일경제 (50건)</span> · <span class="src ok">이데일리 (50건)</span> · <span class="src ok">서울경제 (50건)</span> · <span class="src ok">구글뉴스 키워드 (0건)</span> · <span class="src ok">네이버뉴스검색 (1200건)</span></div>
+    <div class="copyright">각 기사의 저작권은 해당 언론사에 있습니다. 이 페이지는 제목·요약 발췌와 원문 링크만 제공합니다.</div>
+    <div><a href="index.html">지난 브리핑 보기</a></div>
+  </footer>
+</div>
+</body>
+</html>

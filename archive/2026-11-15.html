@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>부동산 뉴스 브리핑 2026-11-15</title>
+<style>
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f6f8;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  line-height: 1.5;
+}
+.wrap { max-width: 940px; margin: 0 auto; padding: 16px; }
+header.top { padding: 8px 0 16px; border-bottom: 1px solid #e0e0e0; margin-bottom: 20px; }
+header.top h1 { font-size: 30px; margin: 0 0 6px; }
+header.top .sub { color: #666; font-size: 19px; margin-bottom: 10px; }
+header.top .nav { display: flex; gap: 12px; font-size: 19px; }
+header.top .nav a { color: #1a56db; text-decoration: none; }
+header.top .nav a:hover { text-decoration: underline; }
+
+section { margin-bottom: 28px; scroll-margin-top: 16px; }
+section h2 { font-size: 23px; margin: 0 0 12px; }
+
+.cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 560px) {
+  .cards { grid-template-columns: 1fr 1fr; }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5e5e5;
+}
+.card .thumb { width: 100%; height: 140px; object-fit: cover; background: #eee; }
+.card .thumb-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef1ff;
+  color: #3348c7;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 12px;
+}
+.card-body { padding: 10px 12px 12px; }
+.card-title {
+  font-size: 21px;
+  margin: 0 0 6px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card .meta { font-size: 16px; color: #888; margin-bottom: 6px; }
+.card .summary {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.summary-box {
+  background: #eef4ff;
+  border: 1px solid #c9dcff;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+.summary-box h2 { margin: 0 0 10px; }
+.summary-box .lede { font-size: 19px; color: #1a1a1a; margin: 0 0 12px; line-height: 1.6; }
+.overview { margin: 0 0 14px; padding: 12px 14px; background: #fff; border-radius: 8px; border: 1px solid #d9e4fb; }
+.overview p { font-size: 18px; color: #333; margin: 0 0 8px; line-height: 1.6; }
+.overview p:last-child { margin-bottom: 0; }
+.highlight-list { list-style: none; margin: 0; padding: 0; }
+.highlight-item {
+  font-size: 19px;
+  padding: 8px 0;
+  border-top: 1px solid #d9e4fb;
+  line-height: 1.5;
+}
+.highlight-item:first-child { border-top: none; }
+.highlight-item a { color: #1a1a1a; text-decoration: none; font-weight: 600; }
+.highlight-item a:hover { text-decoration: underline; }
+.topic-chip {
+  display: inline-block;
+  background: #3348c7;
+  color: #fff;
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.topic-section h2 { }
+.topic-more { margin-top: 8px; font-size: 18px; }
+.topic-more summary { cursor: pointer; color: #1a56db; padding: 6px 0; }
+.topic-more ul.list { margin-top: 8px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  background: #eef1ff;
+  color: #3348c7;
+  font-size: 18px;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.topic-nav-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.topic-nav-chip {
+  display: inline-block;
+  background: #fff;
+  color: #3348c7;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border: 1px solid #3348c7;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.topic-nav-chip:hover { background: #eef1ff; }
+
+.badge {
+  display: inline-block;
+  background: #fff1e6;
+  color: #c25a00;
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+ul.list { list-style: none; margin: 0; padding: 0; }
+.item {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.item-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; }
+.item-title { font-size: 21px; color: #1a1a1a; text-decoration: none; font-weight: 600; }
+.item-title:hover { text-decoration: underline; }
+.item .meta { font-size: 16px; color: #888; margin: 4px 0 6px; }
+.item .summary { font-size: 18px; color: #555; margin: 0 0 6px; }
+.related { font-size: 18px; }
+.related summary { cursor: pointer; color: #1a56db; }
+.related ul { margin: 6px 0 0; padding-left: 18px; }
+.related li { margin-bottom: 4px; }
+.related a { color: #1a1a1a; text-decoration: none; }
+.related a:hover { text-decoration: underline; }
+.related .press { color: #888; }
+
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 16px;
+  font-size: 16px;
+  color: #888;
+}
+footer .sources { margin-bottom: 8px; }
+footer .src.fail { color: #c0392b; }
+footer .copyright { margin-bottom: 8px; }
+footer a { color: #1a56db; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>부동산 뉴스 브리핑</h1>
+    <div class="sub">2026년 11월 15일 (일) · 기사 40건 · 오전 6:30 수집</div>
+    <nav class="nav">
+      <a href="2026-11-14.html">어제 브리핑</a>
+      <a href="index.html">지난 브리핑</a>
+    </nav>
+  </header>
+
+  <section class="summary-box">
+  <h2>오늘의 요약</h2>
+  <p class="lede">총 40건이 수집되었습니다. 분양·청약 12건, 대출·금융 8건, 재건축·재개발 7건 순으로 많았습니다.</p>
+  <div class="overview">
+    <p>분양·청약(12건) — &#x27;씨 마른 강남권 분양에…서울 1순위 청약자 4년만에 최저&#x27; 등의 보도가 이어졌습니다. 강남3구 일반공급 73가구뿐…청약 경쟁률 1년 새 3배로 &#x27;껑충&#x27; 올해 서울 전체 1순위 청약 신청자 수가 4년 만에 가장 적은 것으로 나타났다…</p>
+    <p>대출·금융(8건) — &#x27;“서울 집값 쉽게 안 내려간다”…공급 공백 2~3년, 무주택자 지금 집 사야 할까? [잘살아보세]&#x27; 등의 보도가 이어졌습니다. 서울 공급 부족 지속…지역별 가격 흐름 엇갈려 “대출 상환 능력 우선”…6억 이하 소형 아파트도 무주택자 내 집 마련, 대출·입지·환금성 따져야…</p>
+    <p>재건축·재개발(7건) — &#x27;&quot;엄마, 우리 집도 &#x27;자이&#x27; 되는 거야?&quot;…재건축 없이 아파트 변신&#x27; 등의 보도가 이어졌습니다. 재건축이나 증축형 리모델링 대신 기존 아파트를 허물지 않고 신축급으로 탈바꿈시키는 주거환경 개선사업에 대형 건설사들이 잇따라 뛰어들고 있다.</p>
+    <p>시장·시세(6건) — &#x27;전월세 20개, 수십명 대기…&quot;전셋값 더 뛰죠&quot; 1.2만가구 아파트의 비명[르포]&#x27; 등의 보도가 이어졌습니다. 전월세 다 합쳐서 매물이 20개밖에 안 됩니다.</p>
+  </div>
+  <ul class="highlight-list">
+    <li class="highlight-item"><span class="topic-chip">분양·청약</span> <a href="https://n.news.naver.com/article/001/0016442077" target="_blank" rel="noopener">씨 마른 강남권 분양에…서울 1순위 청약자 4년만에 최저</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">대출·금융</span> <a href="https://n.news.naver.com/article/022/0004175140" target="_blank" rel="noopener">“서울 집값 쉽게 안 내려간다”…공급 공백 2~3년, 무주택자 지금 집 사야 할까? [잘살아보세]</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">재건축·재개발</span> <a href="https://n.news.naver.com/article/008/0005441130" target="_blank" rel="noopener">&quot;엄마, 우리 집도 &#x27;자이&#x27; 되는 거야?&quot;…재건축 없이 아파트 변신</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">시장·시세</span> <a href="https://n.news.naver.com/article/008/0005441128" target="_blank" rel="noopener">전월세 20개, 수십명 대기…&quot;전셋값 더 뛰죠&quot; 1.2만가구 아파트의 비명[르포]</a><span class="badge">2개 언론사</span></li>
+    <li class="highlight-item"><span class="topic-chip">정책·제도</span> <a href="https://n.news.naver.com/article/421/0009289271" target="_blank" rel="noopener">LH 고용안정 교섭에 정부 개혁안 변수…17일 회신 시한 임박</a></li>
+    <li class="highlight-item"><span class="topic-chip">지역·개발</span> <a href="https://n.news.naver.com/article/421/0009289297" target="_blank" rel="noopener">KTX 세종역 새 구상…세종시, CTX 활용한 도심 연결 건의</a></li>
+  </ul>
+</section>
+
+  <section>
+    <h2>주요뉴스</h2>
+    <div class="cards">
+      <a class="card" href="https://n.news.naver.com/article/001/0016442077" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/001/2026/11/15/PYH2026101802760001300_P4_20261115061512097.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>분양·청약</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">씨 마른 강남권 분양에…서울 1순위 청약자 4년만에 최저</h3>
+    <div class="meta">연합뉴스 · 06:15</div>
+    <p class="summary">강남3구 일반공급 73가구뿐…청약 경쟁률 1년 새 3배로 &#x27;껑충&#x27; 올해 서울 전체 1순위 청약 신청자 수가 4년 만에 가장 적은 것으로 나타났다. 분양 자금 조달이 어느 때보다 어려워진 가운데 강남권 아파트 일반 공</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/008/0005441130" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/008/2026/11/15/0005441130_001_20261115060512257.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>재건축·재개발</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">&quot;엄마, 우리 집도 &#x27;자이&#x27; 되는 거야?&quot;…재건축 없이 아파트 변신</h3>
+    <div class="meta">머니투데이 · 06:05</div>
+    <p class="summary">재건축이나 증축형 리모델링 대신 기존 아파트를 허물지 않고 신축급으로 탈바꿈시키는 주거환경 개선사업에 대형 건설사들이 잇따라 뛰어들고 있다. 이주와 공사비 부담을 줄이면서 노후한 외관과 커뮤니티 시설을 개선하고 건설</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/008/0005441128" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/008/2026/11/15/0005441128_001_20261115060216250.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>시장·시세</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">전월세 20개, 수십명 대기…&quot;전셋값 더 뛰죠&quot; 1.2만가구 아파트의 비명[르포]</h3>
+    <div class="meta">머니투데이 · 06:02</div>
+    <p class="summary">전월세 다 합쳐서 매물이 20개밖에 안 됩니다. 그마저도 전용면적 59㎡는 아예 없어 부동산마다 2~3명씩 대기 중이에요. 어쩌다 매물이 나오면 당일 선착순 계약해야 할 정도입니다.&quot;(올림픽파크포레온 인근 A 공인</p>
+  </div>
+</a>
+<a class="card" href="https://n.news.naver.com/article/008/0005441122" target="_blank" rel="noopener">
+  <img class="thumb" src="https://imgnews.pstatic.net/image/008/2026/11/15/0005441122_001_20261115060112258.jpg" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><div class="thumb thumb-fallback" style="display:none"><span>분양·청약</span></div>
+  <div class="card-body">
+    <span class="badge">2개 언론사 보도</span>
+    <h3 class="card-title">수지·아이유도 산 수백억 아파트…&#x27;29가구&#x27; 고집하는 이유[숨부파]</h3>
+    <div class="meta">머니투데이 · 06:00</div>
+    <p class="summary">집과 동네에 얽힌 궁금증부터 부동산 시장의 뒷이야기까지 머니투데이 건설부동산부 기자들이 현장에 &#x27;숨&#x27;겨진 &#x27;부&#x27;동산 이야기를 하나하나 &#x27;파&#x27;헤쳐 전달합니다. 가수 겸 배우 수지가 최근 분양받은 것으로 알려진 서울 강</p>
+  </div>
+</a>
+    </div>
+  </section>
+
+  <section class="topic-nav">
+  <h2>주제별 뉴스 바로가기</h2>
+  <div class="topic-nav-list">
+    <a class="topic-nav-chip" href="#topic-bunyang">분양·청약 12</a>
+    <a class="topic-nav-chip" href="#topic-loan">대출·금융 8</a>
+    <a class="topic-nav-chip" href="#topic-redev">재건축·재개발 7</a>
+    <a class="topic-nav-chip" href="#topic-market">시장·시세 6</a>
+    <a class="topic-nav-chip" href="#topic-policy">정책·제도 4</a>
+    <a class="topic-nav-chip" href="#topic-region">지역·개발 1</a>
+    <a class="topic-nav-chip" href="#topic-etc">기타 2</a>
+  </div>
+</section>
+
+  <section>
+  <h2>오늘의 키워드</h2>
+  <div class="chips"><span class="chip">전월세</span><span class="chip">청약</span><span class="chip">현대</span><span class="chip">삼성</span><span class="chip">최저</span><span class="chip">서울</span><span class="chip">아파트</span><span class="chip">이유</span></div>
+</section>
+
+  <section class="topic-section" id="topic-bunyang">
+  <h2>분양·청약 (12건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/001/0016442077" target="_blank" rel="noopener">씨 마른 강남권 분양에…서울 1순위 청약자 4년만에 최저</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">연합뉴스 · 06:15</div>
+  <p class="summary">강남3구 일반공급 73가구뿐…청약 경쟁률 1년 새 3배로 &#x27;껑충&#x27; 올해 서울 전체 1순위 청약 신청자 수가 4년 만에 가장 적은 것으로 나타났다. 분양 자금 조달이 어느 때보다 어려워진 가운데 강남권 아파트 일반 공</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/001/0016442077?sid=101" target="_blank" rel="noopener">씨 마른 강남권 분양에…서울 1순위 청약자 4년만에 최저</a> <span class="press">· yna.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005441122" target="_blank" rel="noopener">수지·아이유도 산 수백억 아파트…&#x27;29가구&#x27; 고집하는 이유[숨부파]</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">머니투데이 · 06:00</div>
+  <p class="summary">집과 동네에 얽힌 궁금증부터 부동산 시장의 뒷이야기까지 머니투데이 건설부동산부 기자들이 현장에 &#x27;숨&#x27;겨진 &#x27;부&#x27;동산 이야기를 하나하나 &#x27;파&#x27;헤쳐 전달합니다. 가수 겸 배우 수지가 최근 분양받은 것으로 알려진 서울 강</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/008/0005441122?sid=101" target="_blank" rel="noopener">[숨부파] 수지·아이유도 산 수백억 아파트…&#x27;29가구&#x27; 고집하는 이유</a> <span class="press">· mt.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.cbci.co.kr/news/articleView.html?idxno=626953" target="_blank" rel="noopener">[다음주 부동산] 내 집 마련의 꿈, 전국 1천681가구 청약…수도권에 80%...</a>
+    
+  </div>
+  <div class="meta">cbci.co.kr · 06:30</div>
+  <p class="summary">수도권을 중심으로 전국 10개 지역에서 1,681가구의 신규 주택 청약이 다음 주에 이뤄진다. 전체 물량 중 약... (12가구)가 청약을 받으며, 경기도에서는 광주시 &#x27;제일풍경채 광주 포에듀&#x27;(572가구), 의정부시 &#x27;의정부역...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/421/0009289298?sid=101" target="_blank" rel="noopener">&quot;병목 풀고 외주비 줄인다&quot;…한솔아이원스, 2170억 증설 승부수</a>
+    
+  </div>
+  <div class="meta">news1.kr · 06:20</div>
+  <p class="summary">한솔테크닉스, 반도체 자회사 지원…243억 규모 청약 추진 15일 업계에 따르면 한솔아이원스는 지난달 23일... 배정받는 신주 전량을 청약하고 배정 물량의 20%를 추가로 청약할 계획이다 예정 발행가 기준 최대...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://realty.chosun.com/site/data/html_dir/2026/11/13/2026111301137.html" target="_blank" rel="noopener">&#x27;교회 알박기 논란&#x27; 장위10구역, 공사비 3700억→7800억 폭탄</a>
+    
+  </div>
+  <div class="meta">realty.chosun.com · 06:04</div>
+  <p class="summary">주택도시보증공사(HUG)에 따르면 9월 서울 민간아파트 평균 분양가는 3.3㎡당 6287만원으로 5개월 연속 6000만원대를 유지했다. 공사비 상승분이 분양가에 반영되면서 서울의 주택 공급 가격도 계속 높아지는...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/031/0001075061?sid=101" target="_blank" rel="noopener">&#x27;코스피 2호&#x27; 에스에프씨, 일반청약⋯영광YKMC·옵토닉스 등 상장 [IPO 돋...</a>
+    
+  </div>
+  <div class="meta">inews24.com · 06:01</div>
+  <p class="summary">일반 청약을 진행한다. 영광와이케이엠씨·옵토닉스·에이엘로봇·하나에어로다이내믹스 등 4곳은... 일반 청약을 받는다. 지난 2000년 설립된 에스에프씨는 OLED 발광층에 사용되는 블루 호스트(Host)와 도판트(Dopant)...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/366/0001204774?sid=101" target="_blank" rel="noopener">[주간증시전망] 젠슨 황 사임 후 엔비디아 실적 발표… 미·중 정상회담...</a>
+    
+  </div>
+  <div class="meta">biz.chosun.com · 06:01</div>
+  <p class="summary">높은 청약 수요가 상장 이후 주가로 이어질지 지켜봐야 한다”고 말했다. 전문가들은 이번 주 주요 이벤트가 증시의 단기 반등 계기가 될 수 있지만, 추세적 회복을 판단하기에는 이르다고 보고 있다. 지난달 초만 해도...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/119/0003155212?sid=101" target="_blank" rel="noopener">이번주 공모주 청약, 에스에프씨·유캐스트 등 2개사</a>
+    
+  </div>
+  <div class="meta">dailian.co.kr · 06:00</div>
+  <p class="summary">11월 셋째 주(16~20일) 기업공개(IPO) 시장에서는 에스에프씨·유캐스트 등 2개사가 일반투자자 대상 공모주 청약을 진행한다. 15일 금융투자업계에 따르면 에스에프씨와 유캐스트는 오는 18일과 19일 양일 동안 청약에...</p>
+  
+</li>
+  </ul>
+  <details class="topic-more">
+    <summary>더보기 (4건)</summary>
+    <ul class="list">
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=504099" target="_blank" rel="noopener">[이번주 청약 길잡이] 11월 셋째 주 전국 1681가구 청약…수도권에 80% 집...</a>
+    
+  </div>
+  <div class="meta">pinpointnews.co.kr · 06:00</div>
+  <p class="summary">11월 셋째 주 청약일정. 리얼투데이 제공. 11월 셋째 주에는 전국 10곳에서 총 1681가구(도시형생활주택·공공분양·민간참여 공공분양 포함, 행복주택 제외)가 청약 접수를 진행한다. 15일 부동산 전문 리서치업체...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/008/0005441107?sid=101" target="_blank" rel="noopener">영광와이케이엠씨·옵토닉스 등 4곳 코스닥 데뷔</a>
+    
+  </div>
+  <div class="meta">mt.co.kr · 04:30</div>
+  <p class="summary">영광와이케이엠씨는 지난 4~5일 진행된 일반 공모청약에서 1342.6대1의 경쟁률을 기록하며 증거금... 지난 5일부터 이틀간 진행한 일반투자자 공모청약에서는 1343.32대1의 경쟁률을 기록하며 4조4330억원의 증거금을...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.wikitree.co.kr/articles/1174653" target="_blank" rel="noopener">블랙록 BUIDL, 주말에도 스테이블코인으로 바꾼다…1억 달러 시설이지만...</a>
+    
+  </div>
+  <div class="meta">wikitree.co.kr · 01:30</div>
+  <p class="summary">투자자는 신원 확인과 청약 계약을 거쳐 명의개서 대리인의 승인을 받아야 화이트리스트에 오른다. 토큰을 온체인에서 옮길 수 있다는 점과 펀드 투자 자격은 별개라는 얘기다.블랙록은 토큰화 펀드의...</p>
+  
+</li>
+      <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.cbci.co.kr/news/articleView.html?idxno=626962" target="_blank" rel="noopener">[서학!스타] 앤트로픽(Anthropic), 종목코드는 &#x27;ANT&#x27;…공모 희망가 70~78달...</a>
+    
+  </div>
+  <div class="meta">cbci.co.kr · 00:00</div>
+  <p class="summary">이에 따라 증권신고서가 효력을 갖추기 전까지는 관련 주식의 판매와 매수 청약 접수가 허용되지 않는다. 앤트로픽은 이번 발표가 주식 매도를 제안하거나 매수를 권유하는 행위에 해당하지 않는다고 명시했다....</p>
+  
+</li>
+    </ul>
+  </details>
+</section>
+<section class="topic-section" id="topic-loan">
+  <h2>대출·금융 (8건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/022/0004175140" target="_blank" rel="noopener">“서울 집값 쉽게 안 내려간다”…공급 공백 2~3년, 무주택자 지금 집 사야 할까? [잘살아보세]</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">세계일보 · 05:45</div>
+  <p class="summary">서울 공급 부족 지속…지역별 가격 흐름 엇갈려 “대출 상환 능력 우선”…6억 이하 소형 아파트도 무주택자 내 집 마련, 대출·입지·환금성 따져야 서울 중구 남산에서 바라본 서울시내 아파트. 뉴시스 내년 서울 아파트</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/022/0004175140?sid=101" target="_blank" rel="noopener">“서울 집값 쉽게 안 내려간다”…공급 공백 2~3년, 무주택자 지금 집 사...</a> <span class="press">· segye.com</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/011/0004682216?sid=101" target="_blank" rel="noopener">세기의 미·중·러 정상회담...엔트로픽 IPO 흥행 관심 [한동훈의 위클리...</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">sedaily.com · 06:01</div>
+  <p class="summary">3분기 들어서도 금융권 가계대출이 꾸준히 증가한 것을 고려하면 2000조 원을 웃도는 수치가 발표될 것으로 보인다. 19일 발표되는 한은의 ‘3분기 국제투자대조표’도 관심 지표다. 2분기 순대외금융자산...</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KUEVjVDRSQkVPX2M3a2cxVlFJdXM4cl9aaGJHYVo2MzNnZmlQOFBrVzhKOGNhTGd6QTNPem11N3lJS2Y0dWV5eHV0dXFGcnVCREHSAVNBVV95cUxQREN4eEFyMFdkSnpEZnRING1fWFJmRktBNTNuelNJUG9naWNoVlBuaTVac3o4eHZDbnFBS25QWTZXR2l0RGRwdEd1dVRzZzR6RzBTbw?oc=5" target="_blank" rel="noopener">세기의 미·중·러 정상회담...엔트로픽 IPO 흥행 관심 [한동훈의 위클리전망대]</a> <span class="press">· 서울경제</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/366/0001204777?sid=101" target="_blank" rel="noopener">[경제 포커스] 잠재성장률 상승을 마냥 반길 수 없는 이유… “금리 올...</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">biz.chosun.com · 06:01</div>
+  <p class="summary">1200兆 가계대출 어쩌나 신현송 한국은행 총재는 10월 기준금리 결정 이후 기자간담회에서 “성장률이 올라가면 균형 금리라는 것이 같이 따라 올라가게 돼 있다”고 했다. 같은 달 국회 국정감사에서는 ‘과거와...</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPWElEUDluUERLTFBEemJ2Y1Q0QzZsSGQzVHN2V2hBUG1TNjR6Vy1oeElPbkM3RzNXU2dMSUFmZ0YzVUdYa3d2eS1Wd3F2VDZ5bWtCV1FJMkhQaGx2cEYtb0RMWk9LU25zcGdhTzRIcVFyalZXNENRc2lfSm15azRTcW0zR0VkUdIBmgFBVV95cUxQbWdaQUdZenBYN19xRFBWWXRubWhBYjRzeXNKM2dNTTE0b3BfZzdIOFF6dGthT3dkY0taak80VUsyR1MwYW5uY0FsbmRDeWY5UFhYcE1SWlo3TWRPdWtJNGp1bEhQNFlyUnpfWWN3RzJiYUtIa2NqS2JSTURZV2hYbXhhTU9NWTdpY3lIb2x0X2Z2azdMang4OHRB?oc=5" target="_blank" rel="noopener">[경제 포커스] 잠재성장률 상승을 마냥 반길 수 없는 이유… “금리 올라 가계 부채 부담 커져”</a> <span class="press">· Chosunbiz</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014322412?sid=101" target="_blank" rel="noopener">&quot;월 900만원 버는데 남는 돈 0원&quot;…고소득 가정도 무너지는 소비의 함정</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">newsis.com · 00:00</div>
+  <p class="summary">사연 속 가구의 지출 내역을 보면 주택담보대출 원리금 230만원, 보험·적금·관리비 등 250만원, 아내 생활비 및 자녀 학원·식대 350만원, 본인 용돈 및 차량 유지비 50만원 등으로 매달 고스란히 지출되어 저축 여력이...</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9IS2xNSTZmdU1QMExVbWJmZDVjNzdpS1FNaEcyc0JXWXI0aEVuWUNaUVMxZ3R6UFR2WktiVHNZd3JkUUdTMTc3S2V5cFI1TEZLd3Zjd3oxTnZ0RU52OGNsMmYxX2N3ejJ6enhiMm9QdFFfb1luNzVGQ9IBeEFVX3lxTE9IS2xNSTZmdU1QMExVbWJmZDVjNzdpS1FNaEcyc0JXWXI0aEVuWUNaUVMxZ3R6UFR2WktiVHNZd3JkUUdTMTc3S2V5cFI1TEZLd3Zjd3oxTnZ0RU52OGNsMmYxX2N3ejJ6enhiMm9QdFFfb1luNzVGQw?oc=5" target="_blank" rel="noopener">&quot;월 900만원 버는데 남는 돈 0원&quot;…고소득 가정도 무너지는 소비의 함정</a> <span class="press">· 뉴시스</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://it.chosun.com/news/articleView.html?idxno=3000000000919" target="_blank" rel="noopener">대출 합쳐 갈아타기… 은행권, 소상공인 지원 확대</a>
+    
+  </div>
+  <div class="meta">it.chosun.com · 06:30</div>
+  <p class="summary">위해 &#x27;개인사업자 부동산담보대출 갈아타기&#x27;를 출시했다. 다른 금융회사에서 받은 신용대출과 보증서대출... 배연수 우리은행 기업그룹 부행장은 &quot;정책금융기관과의 협력과 은행의 외환·무역금융 역량을 바탕으로 국내...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://realty.chosun.com/site/data/html_dir/2026/11/13/2026111301005.html" target="_blank" rel="noopener">&quot;죽을 때 통장 잔고 0원이 목표&quot;…&#x27;다 쓰고 죽기&#x27;에 빠진 日 은퇴자들</a>
+    
+  </div>
+  <div class="meta">realty.chosun.com · 06:04</div>
+  <p class="summary">기존 주택담보대출 부담이 크다면 연금 한도의 최대 90%를 일시에 인출해 고금리 대출을 갚아버리는 ‘대출상환방식’으로 매월 나가는 이자 지출을 즉시 끊어낼 수 있다. 공시가격 12억 원(시세 약 17억~18억 원)을 넘는...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/001/0016442041?sid=101" target="_blank" rel="noopener">저축은행 예금금리 4% 다시 눈 앞…상호금융은 주춤</a>
+    
+  </div>
+  <div class="meta">yna.co.kr · 05:51</div>
+  <p class="summary">저축은행보다 가계대출 운용 수요가 큰 일부 상호금융업권에서는 고금리 수신을 제한하는 움직임도 나타나고 있다. 새마을금고 1년 만기 정기예금 평균 금리는 10월 말 기준 3.7%로, 현재 수준도 이와 비슷한 것으로...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.theguru.co.kr/news/article.html?no=109524" target="_blank" rel="noopener">[글로벌 K-Financer] (4) OK뱅크 인도네시아, 리테일 여신 비중 30%로 확대...</a>
+    
+  </div>
+  <div class="meta">theguru.co.kr · 00:02</div>
+  <p class="summary">현지 대형 은행들이 주택담보대출과 직장인 신용대출 시장을 주도하는 만큼 중소형 은행은 경쟁에 한계가 있다. 이에 따라 중신용자 대상 신용대출에 특화하고 있다. 초기에는 신용평가 경험 부족으로 시행착오를...</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-redev">
+  <h2>재건축·재개발 (7건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005441130" target="_blank" rel="noopener">&quot;엄마, 우리 집도 &#x27;자이&#x27; 되는 거야?&quot;…재건축 없이 아파트 변신</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">머니투데이 · 06:05</div>
+  <p class="summary">재건축이나 증축형 리모델링 대신 기존 아파트를 허물지 않고 신축급으로 탈바꿈시키는 주거환경 개선사업에 대형 건설사들이 잇따라 뛰어들고 있다. 이주와 공사비 부담을 줄이면서 노후한 외관과 커뮤니티 시설을 개선하고 건설</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/008/0005441130?sid=101" target="_blank" rel="noopener">&quot;엄마, 우리 집도 &#x27;자이&#x27; 되는 거야?&quot;…재건축 없이 아파트 변신</a> <span class="press">· mt.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/079/0004209826?sid=101" target="_blank" rel="noopener">현대·삼성 &#x27;최대 실적&#x27;…건설사 도시정비 수주 신기록 세우나</a>
+    
+  </div>
+  <div class="meta">nocutnews.co.kr · 06:01</div>
+  <p class="summary">재개발과 재건축, 리모델링 등을 포함하고, 우선협상대상자 선정 단계의 사업 등은 제외한 금액이다. 지난해 연간 수주액(48조6654억원)을 이미 넘어선 가운데, 연말 추가 수주 결과에 따라 신기록 달성도 가능할...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.newspim.com/news/view/20261113001161" target="_blank" rel="noopener">포스코이앤씨 선점한 리모델링 시장…삼성·현대·GS도 경쟁 가세</a>
+    
+  </div>
+  <div class="meta">newspim.com · 06:00</div>
+  <p class="summary">재건축·재개발 정비사업에 주력해 오던 삼성물산, 현대건설, GS건설이 신규 사업 모델을 통해 리모델링 사업 확장을 노리는 것이다. 복잡한 구조로 인해 사업 추진이 쉽지 않은 단지들이 적지 않은만큼 고도의 기술력과...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.pointdaily.co.kr/news/articleView.html?idxno=325923" target="_blank" rel="noopener">삼성·현대 이어 GS까지 출격…&#x27;무증축 리모델링&#x27; 3파전 불붙었다</a>
+    
+  </div>
+  <div class="meta">pointdaily.co.kr · 06:00</div>
+  <p class="summary">기존 아파트를 허물거나 늘리지 않고 신축 단지 수준의 주거환경을 구현하는 이른바 &#x27;무증축 리모델링... 원자재 가격과 인건비 상승으로 공사비 부담이 커진 가운데, 기존 용적률이 높아 일반분양 물량을 충분히...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014322456?sid=102" target="_blank" rel="noopener">김종철 청문회 D-3…재개발 투기 의혹·수사개혁 검증대</a>
+    
+  </div>
+  <div class="meta">newsis.com · 06:00</div>
+  <p class="summary">경기 성남시 재개발구역 부동산을 둘러싼 투기 의혹과 재산신고 오류 등 도덕성 문제부터 관계성 범죄 대응, 경찰 수사역량 강화 등 정책 현안까지 검증대에 오를 전망이다. 15일 국회에 따르면 행정안전위원회는 18일...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/029/0003059060?sid=100" target="_blank" rel="noopener">여야, 민주유공자법 등 쟁점안 놓고 대립 전망…19일 본회의 여부 주목</a>
+    
+  </div>
+  <div class="meta">dt.co.kr · 05:30</div>
+  <p class="summary">도시정비법 개정안은 재개발과 재건축 속도를 높이는 법으로 사업시행계획과 관리처분계획을 묶어 처리해 사업 기간을 2~3년 줄이는 게 특징이다. 도시재정비촉진법은 공공정비사업 용정률 상한을 한시적으로 완호하는...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.theguru.co.kr/news/article.html?no=109597" target="_blank" rel="noopener">13조 현대건설·12조 삼성물산 &#x27;역대 최대&#x27;…대우·GS도 연말 추가 수주...</a>
+    
+  </div>
+  <div class="meta">theguru.co.kr · 00:02</div>
+  <p class="summary">포스코이앤씨는 4조9829억원을 수주한 가운데, 오는 21일 상계3구역 공공재개발과 다음달 대전... 삼성물산이 목동13단지 재건축 사업의 새 단지명으로 제안한 &#x27;래미안 모브13&#x27; 투시도. (사진=삼성물산)</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-market">
+  <h2>시장·시세 (6건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005441128" target="_blank" rel="noopener">전월세 20개, 수십명 대기…&quot;전셋값 더 뛰죠&quot; 1.2만가구 아파트의 비명[르포]</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">머니투데이 · 06:02</div>
+  <p class="summary">전월세 다 합쳐서 매물이 20개밖에 안 됩니다. 그마저도 전용면적 59㎡는 아예 없어 부동산마다 2~3명씩 대기 중이에요. 어쩌다 매물이 나오면 당일 선착순 계약해야 할 정도입니다.&quot;(올림픽파크포레온 인근 A 공인</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/008/0005441128?sid=101" target="_blank" rel="noopener">[르포]전월세 20개, 수십명 대기…&quot;전셋값 더 뛰죠&quot; 1.2만가구 아파트의...</a> <span class="press">· mt.co.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009289269" target="_blank" rel="noopener">작년 12% 뛰던 강남·서초 집값, 올해는 마이너스…송파도 상승폭 급감</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">뉴스1 · 05:05</div>
+  <p class="summary">지난해 12% 안팎 뛰었던 서울 강남·서초구 아파트값이 올해 하락했다. 송파구도 상승률이 지난해의 5분의 1 수준으로 낮아졌다. 대출 규제가 고가 아파트 매수자의 자금 부담을 키운 데다 세제 개편을 앞두고 처분을 서</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://n.news.naver.com/mnews/article/421/0009289269?sid=101" target="_blank" rel="noopener">작년 12% 뛰던 강남·서초 집값, 올해는 마이너스…송파도 상승폭 급감</a> <span class="press">· news1.kr</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/001/0016442034?sid=101" target="_blank" rel="noopener">지난달 전월세 물가 1.4%↑…3년10개월 만에 최대폭</a>
+    <span class="badge">2개 언론사 보도</span>
+  </div>
+  <div class="meta">yna.co.kr · 05:45</div>
+  <p class="summary">소비자물가지수 월세 상승률은 12년10개월만에 최고 금리 상승기, 대출 상환 부담 커지며 가계 소비 여력 제한될 듯 김수현 안채원 기자 = 지난달 전월세가 약 4년 만에 가장 큰 폭으로 상승한 것으로 나타났다....</p>
+  <details class="related"><summary>관련 기사 더보기</summary><ul><li><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE85WGoySnBzOVhQRHRyeUJjMHUtdXp1REhOVGl5TDF3SE5BVDd6ZUZUODJCWGlWTGtmNHpZSC1qdzB1dlEwenMwRUtYbUZMY19jUVpoVlhsbWFXcG_SAWBBVV95cUxPOUIwNE8yX3RDTEpnQkwzLTJPdkF4X3B0MW5hMFp3QUlyRFZOLU5xVlcwSkVja0VXZWg1eTI1VGdxeXdDdC1oRnBTdDdFb3RtSS1WN09adENFbjd0T3V2LXo?oc=5" target="_blank" rel="noopener">지난달 전월세 물가 1.4%↑…3년10개월 만에 최대폭</a> <span class="press">· 연합뉴스</span></li></ul></details>
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014322466?sid=101" target="_blank" rel="noopener">전세 매물 씨 마르자 재계약 급증…세입자들 &#x27;울며 눌러앉기&#x27;[전월세 쇼...</a>
+    
+  </div>
+  <div class="meta">newsis.com · 06:00</div>
+  <p class="summary">이사 부담 키운 전세난…매매시장까지 자극하나 세입자들이 기존 계약을 연장하는 배경으로는 전세난과 가격 상승을 꼽을 수 있다. 한국부동산원에 따르면 올해 1~9월 서울 아파트 전셋값은 8.21% 상승했다. 성북구(13....</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014322451?sid=101" target="_blank" rel="noopener">&quot;잠실 30억도 흔들린다&quot;…강남·서초로 몰리는 매수세에 중상위권 &#x27;주춤...</a>
+    
+  </div>
+  <div class="meta">newsis.com · 05:31</div>
+  <p class="summary">향후 부동산 시장에 대해서는 지역과 단지별 차별화가 더욱 뚜렷해질 것으로 전망했다. 김 소장은 &quot;2027년 집값이 오를지에 대한 질문은 큰 의미가 없다&quot;며 &quot;지역마다, 단지마다 다를 것이기 때문&quot;이라고 말했다. 이어...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://www.jnilbo.com/news/articleView.html?idxno=90000082680" target="_blank" rel="noopener">전남광주 아파트값 하락 전환…매매·전세 동반 약세</a>
+    
+  </div>
+  <div class="meta">jnilbo.com · 02:00</div>
+  <p class="summary">여기에 주택산업연구원의 11월 아파트분양전망지수(전남·광주 단순평균)는 74.7로 한 달 새 11.1포인트 떨어졌고, 이달 지역에 3400가구 규모의 분양이 예고돼 기존 아파트 가격에 부담이 더해지고 있다. 이태홍...</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-policy">
+  <h2>정책·제도 (4건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009289271" target="_blank" rel="noopener">LH 고용안정 교섭에 정부 개혁안 변수…17일 회신 시한 임박</a>
+    
+  </div>
+  <div class="meta">뉴스1 · 05:20</div>
+  <p class="summary">한국토지주택공사(LH)의 고용안정 교섭이 정부 개혁안 수립을 이유로 한 사측의 답변 유보로 난항을 겪고 있다. 기관분리 이후 직원의 소속과 인력운영 방안에 대한 합의가 이뤄지지 않자 노조는 정부에 직접 협의를 요구하</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/008/0005441109" target="_blank" rel="noopener">정부, 청년 임대 쿼터제 도입 검토… &quot;2·3순위 공급 확대에 초점&quot;</a>
+    
+  </div>
+  <div class="meta">머니투데이 · 05:00</div>
+  <p class="summary">정부가 청년 매입임대주택의 2·3순위에 별도 물량을 배정하는 쿼터제를 보편형 공공임대와 연계해 검토하고 있다. 기존 취약계층 중심의 공공임대 지원 대상을 일반 청년과 다양한 소득계층으로 넓히려는 것이다. 주거 사각지</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/016/0002723492?sid=101" target="_blank" rel="noopener">과세도 미뤘는데 코인 공제 250만원→5000만원?…국회 “불합리” 제동...</a>
+    
+  </div>
+  <div class="meta">biz.heraldcorp.com · 05:36</div>
+  <p class="summary">비상장주식·부동산에는 허용하지 않는 이월공제를 가상자산에만 인정하면 과세 형평성을 해칠 수 있다고 지적했다. 폐지된 금융투자소득세의 이월공제는 위험자산 투자를 유도해 모험자본을 육성한다는 정책목적이...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/003/0014322415?sid=101" target="_blank" rel="noopener">&quot;살던 집에서 쫓겨날 판&quot;…1주택 은퇴자까지 덮친 종부세 공포</a>
+    
+  </div>
+  <div class="meta">newsis.com · 00:00</div>
+  <p class="summary">이제 12월이면 종합부동산세 고지서가 날아옵니다. 국민들이 고지서 한 장 받아보는 순간 애국심은 산산조각... &quot;집 팔고 주식 샀다 쪽박&quot;…백성을 가난하게 만드는 정책 다주택자들의 처지는 더 가혹하다. 정부가 주택 수...</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-region">
+  <h2>지역·개발 (1건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/article/421/0009289297" target="_blank" rel="noopener">KTX 세종역 새 구상…세종시, CTX 활용한 도심 연결 건의</a>
+    
+  </div>
+  <div class="meta">뉴스1 · 06:10</div>
+  <p class="summary">세종시가 충청권광역급행철도(CTX) 선로를 활용해 KTX를 세종 도심까지 운행하는 방안을 정부에 건의했다. 기존 호남고속철도 본선에 역을 추가하는 대신 별도 연결선을 통해 CTX 노선에 진입시키는 방식이다. 15일</p>
+  
+</li>
+  </ul>
+  
+</section>
+<section class="topic-section" id="topic-etc">
+  <h2>기타 (2건)</h2>
+  <ul class="list">
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://n.news.naver.com/mnews/article/008/0005441118?sid=104" target="_blank" rel="noopener">美 중간선거 후 불거진 AI 세금 논쟁… &#x27;로봇세 신설&#x27;→&#x27;공제 회수&#x27;</a>
+    
+  </div>
+  <div class="meta">mt.co.kr · 06:00</div>
+  <p class="summary">진보 성향 조세경제정책연구소(ITEP)는 지난 8월 상장사들이 누린 연방 법인세 혜택을 2040억달러로... 데이터센터 총수입에 새 연방 소비세를 매기고(세율 미정), 보너스 감가상각·기회특구·비상장 부동산투자신탁...</p>
+  
+</li>
+    <li class="item">
+  <div class="item-head">
+    <a class="item-title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsSlFlN1JJeTEzMnEwSE9oRkVRRUhqV2xYYXpiMENVOHd1UFM4eHA1c0ZwdTNvSko0SHEtQTlPOVlRM25hb29Bdnk4WExTcXQ1VVdTb2VvTy1Jb01KNUlfOXBHQ29IZw?oc=5" target="_blank" rel="noopener">아르뮤제자이 84㎡ 최저 10억…안산 거래 중간값의 2배, 왜 이렇게 비싼가</a>
+    
+  </div>
+  <div class="meta">경기연합신문 · 03:54</div>
+  
+  
+</li>
+  </ul>
+  
+</section>
+
+  <footer>
+    <div class="sources"><span class="src ok">네이버부동산 (88건)</span> · <span class="src ok">매일경제 (50건)</span> · <span class="src ok">이데일리 (50건)</span> · <span class="src ok">서울경제 (50건)</span> · <span class="src ok">구글뉴스 키워드 (65건)</span> · <span class="src ok">네이버뉴스검색 (1200건)</span></div>
+    <div class="copyright">각 기사의 저작권은 해당 언론사에 있습니다. 이 페이지는 제목·요약 발췌와 원문 링크만 제공합니다.</div>
+    <div><a href="index.html">지난 브리핑 보기</a></div>
+  </footer>
+</div>
+</body>
+</html>
